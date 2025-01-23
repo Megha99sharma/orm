@@ -1,0 +1,17 @@
+// shared-orm-lib/package.json
+{
+	"name": "shared-orm-lib",
+	"version": "1.0.0",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc"
+	},
+	"dependencies": {
+		"typeorm": "^0.3.0",
+		"pg": "^8.7.1"
+	},
+	"devDependencies": {
+		"typescript": "^4.5.5"
+	}
+}
